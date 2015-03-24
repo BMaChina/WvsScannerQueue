@@ -201,7 +201,7 @@ def main():
 		return
 	filestr = sys.argv[1]
 	Result = read_url(filestr)
-	thread_count = 6
+	thread_count = 6	#这里不能超过10，WIN下最多打开10个wvs_consoe进行扫描
 	start_time = time.time()
 	do_count = len(Result)
 	work_manager = ScanManager(do_count, thread_count, Result)
