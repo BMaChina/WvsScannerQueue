@@ -1,6 +1,9 @@
 # WvsScannerQueue
 WvsScannerQueue.py
 
+Version:
+  Python 2.7.*
+
 Acunetix Web Vulnerability Scanner 辅助Python脚本的第一个版本。
 
 功能：
