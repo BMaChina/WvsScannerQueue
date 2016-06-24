@@ -7,7 +7,7 @@ Version:
 Acunetix Web Vulnerability Scanner 辅助Python脚本的第一个版本。  
 功能：  
   扫描URL.TXT文件中所有URL  
-  扫描完成一个URL后立即过滤报告，并且提权漏洞标题发送给自己  
+  扫描完成一个URL后立即过滤报告，并且提取漏洞标题发送给自己  
   
 存在的问题：  
   扫描一些网站很慢  
